@@ -1,3 +1,5 @@
+using Componentes.obj;
+
 namespace Componentes
 {
     public partial class F_Principal : Form
@@ -75,6 +77,12 @@ namespace Componentes
         {
             F_ToolStripContainer f_ToolStripContainer = new F_ToolStripContainer();
             f_ToolStripContainer.ShowDialog();
+        }
+
+        private void sQLiteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_SQLite f_SQLite = new F_SQLite();
+            f_SQLite.ShowDialog();
         }
     }
 }

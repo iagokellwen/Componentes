@@ -43,6 +43,8 @@
             this.dateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.linkLabelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripContainerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sQLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sQLiteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -114,7 +116,8 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.componentesToolStripMenuItem});
+            this.componentesToolStripMenuItem,
+            this.sQLToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(270, 24);
@@ -137,44 +140,59 @@
             // checkBoxToolStripMenuItem
             // 
             this.checkBoxToolStripMenuItem.Name = "checkBoxToolStripMenuItem";
-            this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.checkBoxToolStripMenuItem.Text = "Checkbox";
             this.checkBoxToolStripMenuItem.Click += new System.EventHandler(this.checkBoxToolStripMenuItem_Click);
             // 
             // checkedListBoxToolStripMenuItem
             // 
             this.checkedListBoxToolStripMenuItem.Name = "checkedListBoxToolStripMenuItem";
-            this.checkedListBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkedListBoxToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.checkedListBoxToolStripMenuItem.Text = "CheckedListBox";
             this.checkedListBoxToolStripMenuItem.Click += new System.EventHandler(this.checkedListBoxToolStripMenuItem_Click);
             // 
             // comboBoxToolStripMenuItem
             // 
             this.comboBoxToolStripMenuItem.Name = "comboBoxToolStripMenuItem";
-            this.comboBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.comboBoxToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.comboBoxToolStripMenuItem.Text = "ComboBox";
             this.comboBoxToolStripMenuItem.Click += new System.EventHandler(this.comboBoxToolStripMenuItem_Click);
             // 
             // dateToolStripMenuItem
             // 
             this.dateToolStripMenuItem.Name = "dateToolStripMenuItem";
-            this.dateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dateToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.dateToolStripMenuItem.Text = "DateTimePick";
             this.dateToolStripMenuItem.Click += new System.EventHandler(this.dateToolStripMenuItem_Click);
             // 
             // linkLabelToolStripMenuItem
             // 
             this.linkLabelToolStripMenuItem.Name = "linkLabelToolStripMenuItem";
-            this.linkLabelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.linkLabelToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.linkLabelToolStripMenuItem.Text = "LinkLabel";
             this.linkLabelToolStripMenuItem.Click += new System.EventHandler(this.linkLabelToolStripMenuItem_Click);
             // 
             // toolStripContainerToolStripMenuItem
             // 
             this.toolStripContainerToolStripMenuItem.Name = "toolStripContainerToolStripMenuItem";
-            this.toolStripContainerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.toolStripContainerToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.toolStripContainerToolStripMenuItem.Text = "ToolStripContainer";
             this.toolStripContainerToolStripMenuItem.Click += new System.EventHandler(this.toolStripContainerToolStripMenuItem_Click);
+            // 
+            // sQLToolStripMenuItem
+            // 
+            this.sQLToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sQLiteToolStripMenuItem});
+            this.sQLToolStripMenuItem.Name = "sQLToolStripMenuItem";
+            this.sQLToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.sQLToolStripMenuItem.Text = "SQLite";
+            // 
+            // sQLiteToolStripMenuItem
+            // 
+            this.sQLiteToolStripMenuItem.Name = "sQLiteToolStripMenuItem";
+            this.sQLiteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sQLiteToolStripMenuItem.Text = "SQLite";
+            this.sQLiteToolStripMenuItem.Click += new System.EventHandler(this.sQLiteToolStripMenuItem_Click);
             // 
             // F_Principal
             // 
@@ -220,5 +238,7 @@
         private ToolStripMenuItem dateToolStripMenuItem;
         private ToolStripMenuItem linkLabelToolStripMenuItem;
         private ToolStripMenuItem toolStripContainerToolStripMenuItem;
+        private ToolStripMenuItem sQLToolStripMenuItem;
+        private ToolStripMenuItem sQLiteToolStripMenuItem;
     }
 }
